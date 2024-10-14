@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+body{
+    background-color: rgb(3, 3, 71);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+header .logo
+{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "Kanit", sans-serif;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: aliceblue;
+    border-radius: 20px;
+}
+header ul li a:hover{
+    background-color: aliceblue;
+    color: rgb(3, 3, 71);
+}
+
+.parallax {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#moon {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 200px;
+    z-index: 1;
+}
+
+#text {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    font-size: 4rem;
+    color: white;
+    z-index: 2;
+}
+
+#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+
+
+#pas
+{
+    margin-top: 00px;
+    color: aliceblue;
+}
+#ab{
+    text-align: center;
+    margin-top: -150px;
+    color: aliceblue;
+    font-family: "Afacad Flux", sans-serif;m  
+}
+#imdo {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -150px;
+}
+
+.image-container {
+    display: flex;
+    gap: 20px;
+}
+
+.image-card {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-card img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.icons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.icon-heart, .icon-folder {
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5px;
+    cursor: pointer;
+}
+
+.icon-heart:hover, .icon-folder:hover {
+    background-color: transparent;
+    color: black;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.shop-button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid black;
+    transition: all 0.3s ease;
+}
+
+.shop-button:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+.cu{
+    color: azure;
+    text-align: center;
+    font-family: "Afacad Flux", sans-serif;
+}
+.cuicon{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    gap: 15px;
+    color:rgb(84, 84, 178);
+}
+.cuicon :hover
+{
+    color: white;
+}
+footer{
+    background-color: rgb(3, 3, 61);
+}
